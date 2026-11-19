@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zhassekenova Aiaru | Personal Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #f8e8ee, #e8e4f8);
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 850px;
+            width: 100%;
+            background: white;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 10px 35px rgba(0,0,0,0.1);
+        }
+
+        header {
+            background: linear-gradient(135deg, #b583a5, #8175b5);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 38px;
+            margin-bottom: 12px;
+        }
+
+        header p {
+            font-size: 17px;
+            letter-spacing: 1px;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        section {
+            margin-bottom: 35px;
+        }
+
+        h2 {
+            color: #98749e;
+            font-size: 23px;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee4f0;
+            padding-bottom: 8px;
+        }
+
+        .about p {
+            line-height: 1.8;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .skills {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+        }
+
+        .skill-card {
+            background: #f8f2fa;
+            padding: 22px 12px;
+            border-radius: 12px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .skill-card span {
+            font-size: 28px;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .skill-card h3 {
+            font-size: 15px;
+            color: #70577d;
+        }
+
+        .contact {
+            background: #f8f2fa;
+            padding: 25px;
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .contact p {
+            margin-top: 10px;
+        }
+
+        .contact a {
+            color: #98749e;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .contact a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #f8f2fa;
+            color: #777;
+            font-size: 14px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 29px;
+            }
+
+            main {
+                padding: 25px;
+            }
+
+            .skills {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Zhassekenova Aiaru</h1>
+            <p>Student | Future Marketing Professional</p>
+        </header>
+
+        <main>
+            <section class="about">
+                <h2>About Me</h2>
+                <p>
+                    Hello! My name is Zhassekenova Aiaru. I am a student at KIMEP University
+                    interested in marketing and business. I enjoy learning new things,
+                    exploring creative ideas, and discovering different cultures through
+                    travelling. I am motivated to develop my skills and gain new experiences
+                    that will help me grow personally and professionally.
+                </p>
+            </section>
+
+            <section>
+                <h2>My Skills & Achievements</h2>
+                <div class="skills">
+                    <div class="skill-card">
+                        <span>📊</span>
+                        <h3>Microsoft Excel</h3>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>🎓</span>
+                        <h3>Excellent Academic Performance</h3>
+                    </div>
+
+                    <div class="skill-card">
+                        <span>🤝</span>
+                        <h3>Teamwork & Communication</h3>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact">
+                <h2>Contact Me</h2>
+                <p>Feel free to contact me via my university email:</p>
+                <p>
+                    <a href="mailto:aiaru.zhassekenova@kimep.kz">
+                        aiaru.zhassekenova@kimep.kz
+                    </a>
+                </p>
+            </section>
+        </main>
+
+        <footer>
+            © 2026 Zhassekenova Aiaru | Personal Portfolio
+        </footer>
+    </div>
+
+</body>
+</html>
